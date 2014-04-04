@@ -1,0 +1,31 @@
+img {
+	width: 100%;
+}
+
+.profile-picture{
+	width: 180px;
+	height: 180px; 
+	border: 8px solid #0101DF;
+
+}
+
+.centered{
+margin:0px auto; 	
+
+} 
+.about{
+	float:right; 
+} 
+.toplink{
+	color:#00FFFF;
+}
+body{
+	background:#00BFFF;
+	font-family: Revalia;
+
+} 
+.rightlink{color:#04B404 } 
+a:hover{ 
+	color: #0101DF;
+}
+

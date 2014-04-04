@@ -1,0 +1,21 @@
+<!DOCTYPE html> 
+ <html> 
+ <head>
+ 	<title>My Todo List</title> 
+ 	  <script> 
+       function addText(){
+        // Store value of the input to a variable
+        var input = document.getElementById('input').value; 
+         // Add that input to a list
+         document.getElementById('do').innerHTML += "<li>"+
+         input + "</li>";
+          document.getElementById('input').value="";
+       }
+ 	   </script> 
+ 	</head> 
+ 	 <body> 
+ 	 	<input type= "text" id="input" onkeydown="if (event.keyCode == 13) addText()"/>
+  	 	<input type="button" id="add" onclick="addText()" value="Add Todo Item"/>
+        <p id="do"> </p>
+ 	 </body> 
+ 	 </html>
