@@ -1,31 +1,45 @@
-img {
-	width: 100%;
-}
-
-.profile-picture{
-	width: 180px;
-	height: 180px; 
-	border: 8px solid #0101DF;
-
-}
-
-.centered{
-margin:0px auto; 	
-
-} 
-.about{
-	float:right; 
-} 
-.toplink{
-	color:#00FFFF;
-}
 body{
 	background:#00BFFF;
 	font-family: Revalia;
 
 } 
-.rightlink{color:#04B404 } 
+
+.profile-picture {
+	width: 180px;
+	height: 180px; 
+	border: 8px solid #0101DF;
+}
+
+.centered {
+	margin: 0px auto; 	
+}
+
+.about {
+	float: right; 
+}
+
+.left-link{
+	color: #00FFFF;
+}
+
+.middle-link{
+	color: #DF0101 
+}
+
+.right-link{
+	color :#04B404
+}
+
 a:hover{ 
 	color: #0101DF;
 }
 
+.navigation {
+	list-style-type: none;
+}
+
+.navigation li{ 
+	display: inline; 
+	margin-right: 210px;
+	color: #DF0101
+}
